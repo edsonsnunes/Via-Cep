@@ -9,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   constructor(private viaCep: ViaCep) {}
   public dadosCep!: viaCepprops;
-  addDados = 'cep';
 
   ngOnInit(): void {}
 

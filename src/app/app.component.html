@@ -1,7 +1,8 @@
 <h1>Via CEP</h1>
 <h2>Consulte CEPs de todo o Brasil</h2>
 <div>
-  <span>Cep: <input id="cep" style="width:80px;" type="text"><button (click)="buscarDados()">Buscar</button></span>
+  <span>Cep: <input id="cep" style="width:80px;" type="text"><button type="submit"
+      (click)="buscarDados()">Buscar</button></span>
 
   <div style="display:flex; flex-direction:column" *ngIf="dadosCep">
     <span>Rua: {{dadosCep.logradouro}} </span>
